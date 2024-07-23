@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-alpine
 WORKDIR /app
 
 # Copy the jar file from the host machine to the container
-COPY build/libs/your-application-name.jar app.jar
+COPY build/libs/graphql.jar app.jar
 
 # Expose the port your application will run on
 EXPOSE 8080
